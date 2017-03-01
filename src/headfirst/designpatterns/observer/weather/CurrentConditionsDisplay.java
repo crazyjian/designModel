@@ -1,6 +1,4 @@
 package headfirst.designpatterns.observer.weather;
-
-import headfirst.designpatterns.observer.weatherobservable.DisplayElement;
 	
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;
